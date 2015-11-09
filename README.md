@@ -28,3 +28,23 @@ To remove or un-install Teamviewer, run the following command:
 
 #Install VLC
 sudo apt-get install vlc
+
+#Sublime Text 3
+There isn’t an official PPA, but you can use webupd8's PPA.
+
+Just try this on your terminal:
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+Also you can download the .deb file from http://www.sublimetext.com/3 and install it.
+
+#rbenv
+sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+
+sudo apt-get install rbenv
+
+apt-get install rbenv ruby-build
+
+This command allows the rbenv install
