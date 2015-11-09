@@ -18,3 +18,4 @@ How to install Teamviewer 10 Beta 64 bit Ubuntu systems
  
 To remove or un-install Teamviewer, run the following command:
  sudo apt-get remove teamviewer*
+.
