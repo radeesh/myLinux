@@ -13,11 +13,15 @@ sudo apt-get install google-chrome-stable
 #Teamviewer
 How to install Teamviewer 10 Beta 64 bit Ubuntu systems
 
- sudo dpkg --add-architecture i386
- sudo apt-get update
- sudo apt-get install gdebi
- wget download.teamviewer.com/download/version_10x/teamviewer_linux.deb
- sudo gdebi teamviewer_linux.deb
+sudo dpkg --add-architecture i386
+ 
+sudo apt-get update
+ 
+sudo apt-get install gdebi
+ 
+wget download.teamviewer.com/download/version_10x/teamviewer_linux.deb
+ 
+sudo gdebi teamviewer_linux.deb
  
 To remove or un-install Teamviewer, run the following command:
  sudo apt-get remove teamviewer*
