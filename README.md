@@ -25,4 +25,6 @@ sudo gdebi teamviewer_linux.deb
  
 To remove or un-install Teamviewer, run the following command:
  sudo apt-get remove teamviewer*
-.
+
+#Install VLC
+sudo apt-get install vlc
