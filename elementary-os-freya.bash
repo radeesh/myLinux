@@ -30,7 +30,7 @@ sudo apt-get update
 sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 sudo apt-get install rbenv
 apt-get install rbenv ruby-build
-This command allows the rbenv install
+#This command allows the rbenv install
 
 #rbenv plugins which allows to install latest ruby version
 cd
